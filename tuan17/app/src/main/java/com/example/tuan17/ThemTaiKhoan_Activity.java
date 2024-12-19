@@ -29,7 +29,7 @@ public class ThemTaiKhoan_Activity extends AppCompatActivity {
         Button btnadd = findViewById(R.id.btnadd);
         EditText tendn = findViewById(R.id.tdn);
         EditText matkhau = findViewById(R.id.mk);
-         admin= findViewById(R.id.admin);
+        admin= findViewById(R.id.admin);
         user= findViewById(R.id.user);
 
 

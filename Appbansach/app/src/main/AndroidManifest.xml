@@ -61,7 +61,7 @@
             android:name=".SuaTaiKhoan_Activity"
             android:exported="false" />
         <activity
-            android:name=".ThemTaiKhoan_Activity"
+            android:name=".ThemSanPham_Activity"
             android:exported="false" />
         <activity
             android:name=".Nhomsanpham_admin_Actvity"
@@ -73,7 +73,7 @@
             android:name=".ChiTietDonHang_Activity"
             android:exported="false" />
         <activity
-            android:name=".ThemSanPham_Activity"
+            android:name=".ThemNhomSanPham_Activity"
             android:exported="false" />
         <activity
             android:name=".SuaNhomsanpham_Activity"
@@ -85,7 +85,7 @@
             android:name=".Taikhoan_admin_Activity"
             android:exported="false" />
         <activity
-            android:name=".ThemNhomSanPham_Activity"
+            android:name=".ThemTaiKhoan_Activity"
             android:exported="false" />
         <activity
             android:name=".Sanpham_admin_Activity"

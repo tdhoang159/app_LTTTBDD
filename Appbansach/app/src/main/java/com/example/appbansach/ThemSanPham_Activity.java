@@ -140,7 +140,15 @@ public class ThemSanPham_Activity extends AppCompatActivity {
 
     // Mở dialog chọn hình ảnh từ drawable
     private void openDrawableImagePicker() {
-        final String[] imageNames = {"dacnhantam","danhthucconnguoi","diduongdem", "hoangtube","hoavangtrencoxanh","thuatdocnguoi", "sucmanhsutute","vapngatruongthanh","taybalo", "vuotbaycamxuc"};
+        final String[] imageNames = {"vest1","vest2","vest3", "vest4","vest5",
+                "tshirt1", "tshirt2","tshirt3","tshirt4", "tshirt5",
+                "aolen1", "aolen2", "aolen3", "aolen4", "aolen5",
+                "vay1", "vay2", "vay3", "vay4", "vay5",
+                "giay1", "giay2", "giay3", "giay4", "giay5",
+                "aosomi1", "aosomi2", "aosomi3", "aosomi4", "aosomi5",
+                 "quan1", "quan2", "quan3", "quan4", "quan5",
+                  "phukien1", "phukien2", "phukien3", "phukien4", "phukien5",
+                    "dolot1", "dolot2", "dolot3", "dolot4", "dolot5"};
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Chọn ảnh từ drawable");
         builder.setItems(imageNames, new DialogInterface.OnClickListener() {

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
 
-    android:background="#FFBF00"
+    android:background="#B8B519"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
@@ -81,7 +81,7 @@ android:layout_marginBottom="6dp"
 
 
                 android:drawablePadding="8dp"
-                android:hint="tom tat noi dung"
+                android:hint="Mô tả"
                 android:padding="8dp"
                 android:textColorHint="#aaa"
 
@@ -95,7 +95,7 @@ android:layout_marginBottom="6dp"
                 android:background="@drawable/edittext"
 
                 android:drawablePadding="8dp"
-                android:hint="Tac gia"
+                android:hint="Nơi sản xuất"
                 android:padding="8dp"
                 android:textColorHint="#aaa"
 
@@ -171,7 +171,8 @@ android:layout_marginLeft="26dp"
                     android:layout_width="100dp"
                     android:layout_marginTop="10dp"
                     android:text="Chọn ảnh"
-                    android:backgroundTint="#00BCD4"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FF9800"
                     android:layout_marginLeft="30dp"
                     android:id="@+id/btnAddImg"
                     android:layout_height="50dp"></Button>

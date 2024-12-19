@@ -2,7 +2,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#75D7FF"
+    android:background="#E8EADF"
 
     android:name="android.permission.SYSTEM_ALERT_WINDOW" xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#FFBF00"
+        android:background="#B8B519"
         android:layout_alignParentTop="true"
 
 
@@ -32,7 +32,8 @@
                 android:textColor="#FFFFFF"
                 android:src="@drawable/logo1"
                 android:layout_width="80dp"
-                android:layout_height="80dp"></TextView>
+                android:layout_height="80dp">
+            </TextView>
         </LinearLayout>
 
     </LinearLayout>

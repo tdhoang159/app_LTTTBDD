@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+android:background="#E8EADF"
     android:layout_marginBottom="1dp">
 
     <LinearLayout
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:backgroundTint="#FFBF00"
+        android:backgroundTint="#B8B519"
         android:layout_marginBottom="10dp"
         android:layout_alignParentTop="true"
         android:background="#F6F3EF"

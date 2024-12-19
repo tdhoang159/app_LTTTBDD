@@ -184,12 +184,11 @@ public class TrangchuNgdung_Activity extends AppCompatActivity {
         // Tạo mảng chứa ID của hình ảnh
         int[] adImages = {
 
-                R.drawable.sl1,
-                R.drawable.sl2,
-                R.drawable.sl6,
-                R.drawable.sl3,
-
-                R.drawable.sl5
+                R.drawable.banner1,
+                R.drawable.banner2,
+                R.drawable.banner3,
+                R.drawable.banner4,
+                R.drawable.banner5
 
         };
 

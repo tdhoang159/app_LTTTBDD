@@ -197,7 +197,8 @@ public class NhomSanPhamAdapter extends BaseAdapter {
     }
 
     private void openDrawableImagePicker(ImageView imgnsp) {
-        final String[] imageNames = {"sachthieunhi", "sachdientu", "sachgiaoduc", "sachvanphong", "sachthuvien"};
+        //"Áo vest", "Áo thun", "Áo len", "Váy", "Giày", "Áo sơ mi", "Quần", "Phụ kiện", "Đồ lót"
+        final String[] imageNames = {"suit", "tshirt", "sweater", "dress", "shoes", "shirt", "trouser", "fashion_accessories"};
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle("Chọn ảnh từ drawable");
         builder.setItems(imageNames, (dialog, which) -> {

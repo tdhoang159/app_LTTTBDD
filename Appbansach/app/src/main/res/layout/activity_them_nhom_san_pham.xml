@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:padding="16dp"
-    android:background="#FFBF00"
+    android:background="#B8B519"
     android:orientation="vertical">
     <ImageButton
         android:id="@+id/imgback"
@@ -80,7 +80,8 @@
                     android:layout_width="100dp"
                     android:layout_marginTop="10dp"
                     android:text="Chọn ảnh"
-                    android:backgroundTint="#00BCD4"
+                    android:backgroundTint="#FF9800"
+                    android:textStyle="bold"
                     android:layout_marginLeft="30dp"
                     android:id="@+id/btnAddImg"
                     android:layout_height="50dp"></Button>
@@ -91,10 +92,11 @@
                 android:layout_height="60dp"
                 android:id="@+id/btnadd"
                 android:text="Thêm"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
                 android:layout_marginTop="1dp"
-                android:backgroundTint="#FF0000"
+                android:backgroundTint="#FF9800"
                 app:cornerRadius = "20dp"/>
             <TextView
                 android:id="@+id/id"

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
-    android:background="@drawable/br"
+    android:background="#E8EADF"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
 
-        android:background="#FFC107"
+        android:background="#B8B519"
         android:layout_alignParentTop="true"
 
         android:padding="1dp">
@@ -22,35 +22,51 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="60dp"
                 android:src="@drawable/logo"
-                android:layout_height="wrap_content">
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="60dp">
 
             </ImageView>
-            <EditText
-                android:layout_gravity="center"
-                android:focusableInTouchMode="false"
-                android:id="@+id/timkiem"
-                android:layout_marginTop="10dp"
 
-                android:paddingRight="10dp"
-                android:textColorHint="#aaa"
-                android:hint="Search..."
-                android:drawablePadding="10dp"
-                android:paddingLeft="15dp"
-                android:textColor="#000000"
-                android:drawableLeft="@drawable/tk"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/thanhtimkiem"
-                android:layout_width="50dp"
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="17dp"
+                android:layout_weight="1"
+                android:text="Clothes Shop"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/timkiem"
+                android:layout_width="175dp"
                 android:layout_height="35dp"
-                android:scrollHorizontally="true"
-                android:maxLines="1"
-                android:inputType="text"
-                android:ellipsize="end"
+                android:layout_gravity="center"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="@drawable/thanhtimkiem"
+                android:drawableLeft="@drawable/tk"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:focusableInTouchMode="false"
+                android:hint="Search..."
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="true"
+                android:textColor="#000000"
+                android:textColorHint="#aaa" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="0dp"

@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
 
-    android:background="#FFBF00"
+    android:background="#B8B519"
     android:orientation="vertical">
     <ImageButton
         android:id="@+id/imgback"
@@ -82,7 +82,7 @@
 
 
                 android:drawablePadding="8dp"
-                android:hint="Tóm Tắt nôi dung"
+                android:hint="Nhập mô tả"
                 android:padding="8dp"
                 android:textColorHint="#aaa"
 
@@ -96,7 +96,7 @@
                 android:background="@drawable/edittext"
 
                 android:drawablePadding="8dp"
-                android:hint="Tác gia"
+                android:hint="Nhập nơi sản xuất"
                 android:padding="8dp"
                 android:textColorHint="#aaa"
                 android:inputType="text"
@@ -172,10 +172,13 @@
                     android:layout_width="100dp"
                     android:layout_marginTop="10dp"
                     android:text="Chọn ảnh"
-                    android:backgroundTint="#00BCD4"
+                    android:backgroundTint="#FF9800"
+                    android:textStyle="bold"
                     android:layout_marginLeft="30dp"
                     android:id="@+id/btnAddImg"
-                    android:layout_height="50dp"></Button>
+                    android:layout_height="50dp">
+
+                </Button>
             </LinearLayout>
 
 
@@ -185,10 +188,10 @@
                 android:id="@+id/btnadd"
                 android:text="Thêm"
                 android:textStyle="bold"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
                 android:layout_marginTop="1dp"
-                android:backgroundTint="#FF0303"
+                android:backgroundTint="#FF9800"
                 app:cornerRadius = "20dp"/>
 
         </LinearLayout>

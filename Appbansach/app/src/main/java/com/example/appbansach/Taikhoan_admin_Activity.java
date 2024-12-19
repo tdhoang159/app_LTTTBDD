@@ -104,7 +104,7 @@ public class Taikhoan_admin_Activity extends AppCompatActivity {
         database = new Database(this, "banhang.db", null, 1);
         database.QueryData("CREATE TABLE IF NOT EXISTS taikhoan(tendn VARCHAR(20) PRIMARY KEY, matkhau VARCHAR(50), quyen VARCHAR(50))");
         // Thêm 2 dòng dữ liệu
-//        database.QueryData("INSERT  INTO taikhoan VALUES ('admin', '1234', 'admin')");
+        //database.QueryData("INSERT  INTO taikhoan VALUES ('admin', '1234', 'admin')");
 
         Loaddulieutaikhoan();
 

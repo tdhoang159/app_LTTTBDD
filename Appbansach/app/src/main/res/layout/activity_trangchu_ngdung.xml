@@ -1,67 +1,81 @@
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-     android:layout_width="match_parent"
-     xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
 
-    android:background="@drawable/br"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#E8EADF">
 
     <LinearLayout
         android:id="@+id/bo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-
-        android:background="#FFC107"
         android:layout_alignParentTop="true"
+
+        android:background="#B8B519"
+        android:orientation="vertical"
 
         android:padding="1dp">
 
-    <LinearLayout
-            android:orientation="horizontal"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-<ImageView
-    android:layout_width="wrap_content"
-    android:src="@drawable/logo"
-    android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-</ImageView>
-        <EditText
-android:layout_gravity="center"
-            android:focusableInTouchMode="false"
-            android:id="@+id/timkiem"
-android:layout_marginTop="10dp"
-
-            android:paddingRight="10dp"
-            android:textColorHint="#aaa"
-            android:hint="Search..."
-            android:drawablePadding="10dp"
-            android:paddingLeft="15dp"
-            android:textColor="#000000"
-            android:drawableLeft="@drawable/tk"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/thanhtimkiem"
-            android:layout_width="50dp"
-            android:layout_height="35dp"
-            android:scrollHorizontally="true"
-            android:maxLines="1"
-            android:inputType="text"
-            android:ellipsize="end"
-            android:layout_marginBottom="10dp"
-            android:layout_weight="1" />
+            <ImageView
+                android:layout_width="60dp"
+                android:src="@drawable/logo"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="60dp">
+            </ImageView>
             <TextView
+                android:id="@+id/textView"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="17dp"
+                android:layout_weight="1"
+                android:text="Clothes Shop"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/timkiem"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/thanhtimkiem"
+                android:drawableLeft="@drawable/tk"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:focusableInTouchMode="false"
+                android:hint="Search..."
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:scrollHorizontally="true"
+                android:textColor="#000000"
+                android:textColorHint="#aaa" />
+
+            <TextView
+                android:id="@+id/tendn"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-               android:id="@+id/tendn"
 
                 />
 
             <TextView
+                android:id="@+id/quyen"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:id="@+id/quyen"
 
                 />
 
@@ -86,133 +100,126 @@ android:layout_marginTop="10dp"
             >
 
 
-
             <!-- ViewPager2 nằm ở đây -->
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/sl1"
-                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="0dp" />
+
             <TextView
-                android:layout_marginTop="0dp"
-                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
                 android:fontFamily="sans-serif-condensed"
 
 
                 android:text="Catagory"
                 android:textColor="@android:color/black"
-                android:textSize="20sp"
-                />
+                android:textSize="20sp" />
 
 
             <GridView
                 android:id="@+id/grv2"
-
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-
                 android:horizontalSpacing="5dp"
                 android:numColumns="5"
-
                 android:stretchMode="columnWidth"
                 android:verticalSpacing="5dp" />
 
             <LinearLayout
-    android:layout_width="wrap_content"
-    android:orientation="horizontal"
-
-    android:layout_height="wrap_content">
-
-
-            <!-- Nội dung chính của ứng dụng -->
-            <TextView
-                android:layout_marginTop="0dp"
-                android:layout_marginLeft="10dp"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:paddingBottom="15dp"
+                android:orientation="horizontal">
 
-                android:text="New products"
-                android:textColor="@android:color/black"
-                android:textSize="19sp"
 
-                android:textStyle="bold" />
-    <TextView
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="180dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed"
-        android:paddingBottom="10dp"
-android:id="@+id/xemall"
-        android:text="Show all >>"
-        android:textColor="#FF0000"
-        android:textSize="13sp"
+                <!-- Nội dung chính của ứng dụng -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingBottom="15dp"
+                    android:text="New products"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/xemall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingBottom="10dp"
+                    android:text="Show all >>"
+                    android:textColor="#FF0000"
+                    android:textSize="13sp"
 
-        android:textStyle="normal" />
-</LinearLayout>
+                    android:textStyle="normal" />
+            </LinearLayout>
             <!-- GridView với 5cột -->
             <GridView
                 android:id="@+id/grv1"
-                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="1770dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:columnCount="6"
                 android:horizontalSpacing="5dp"
                 android:numColumns="2"
-                android:translationY="-10dp"
-                android:columnCount="6"
                 android:stretchMode="columnWidth"
+                android:translationY="-10dp"
                 android:verticalSpacing="5dp" />
 
             <!-- Thêm CardView cho các dịch vụ -->
 
         </LinearLayout>
     </ScrollView>
+
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnhotro"
-            android:backgroundTint="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
-            android:layout_marginBottom="100dp"
             android:layout_marginRight="10dp"
-            android:src="@drawable/hotro1"
-            />
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/hotro1" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
     <!-- Toolbar ở cuối màn hình -->
     <LinearLayout
         android:id="@+id/bottomToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:background="#FFFFFF"
+        android:orientation="horizontal"
         android:padding="1dp">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
             android:layout_marginRight="10dp"
-            android:gravity="center">
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/btntrangchu"
@@ -225,18 +232,18 @@ android:id="@+id/xemall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:textColor="#000000"
+                android:gravity="center"
                 android:text="Trang Chủ"
-                android:gravity="center" />
+                android:textColor="#000000" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
             android:layout_marginRight="10dp"
-            android:gravity="center">
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/btntimkiem"
@@ -248,17 +255,18 @@ android:id="@+id/xemall"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="Tìm kiếm"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:textColor="#000000" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
             android:layout_marginRight="10dp"
-            android:gravity="center">
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/btncart"
@@ -270,17 +278,18 @@ android:id="@+id/xemall"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="Giỏ Hàng"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:textColor="#000000" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
             android:layout_marginRight="10dp"
-            android:gravity="center">
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/btndonhang"
@@ -293,17 +302,17 @@ android:id="@+id/xemall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:textColor="#000000"
+                android:gravity="center"
                 android:text="Đơn Hàng"
-                android:gravity="center" />
+                android:textColor="#000000" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/btncanhan"
@@ -315,9 +324,9 @@ android:id="@+id/xemall"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
+                android:gravity="center"
                 android:text="Cá Nhân"
-                android:gravity="center" />
+                android:textColor="#000000" />
         </LinearLayout>
     </LinearLayout>
 
